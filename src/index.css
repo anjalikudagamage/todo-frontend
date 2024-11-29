@@ -1,0 +1,78 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+body {
+  padding: 20px;
+}
+
+.table-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #301934;
+}
+
+.todo-header {
+  margin-right: auto;
+  margin-left: 20px;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: #f5f1f1;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.form-label {
+  color: #f3f0f0;
+  font-weight: bold;
+}
+
+.custom-input {
+  border: 1px solid;
+}
+
+button.custom-btn {
+  background-color: #75024f !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+button.custom-btn:hover {
+  background-color: #E80F88 !important; 
+}
+
+.custom-edit-button {
+  background-color: #75024f !important;
+  border-color: #790252 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.custom-edit-button:hover{
+  background-color: #940754 !important; 
+}
+
+.custom-delete-button {
+  background-color: #DC0000 !important;
+  border-color: #DC0000 !important;
+  color: white !important;
+  font-weight: bold;
+} 
+
+.custom-delete-button:hover {
+  background-color: #e2370c !important;
+}
+
+
